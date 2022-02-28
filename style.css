@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.bg-topbar {
+  background-image: url("images/first-bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  margin-top: -20px;
+}
+.menubar {
+  color: aliceblue;
+}
+.menubar ul {
+  text-align: center;
+}
+.menubar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 50px;
+  color: aliceblue;
+}
+.menubar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+.menubar ul li a:hover {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.iamge-part {
+  display: flex;
+  padding: 100px;
+}
+.side-image {
+  width: 100%;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+
+.Link-button {
+  text-decoration: none;
+  background-color: aquamarine;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.Link-button:hover {
+  background-image: linear-gradient(#00c1bc, #00ffff);
+}
+.second-banner {
+  background-image: url("images/four.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  padding: 5%;
+  margin-right: -2%;
+}
+.Link-button-Two {
+  text-decoration: none;
+  background-color: rgb(247, 201, 0);
+  color: black;
+  padding: 10px 40px;
+  font-size: bold;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.Link-button-Two:hover {
+  background-image: linear-gradient(#fffb00, #b3ff00);
+}
+.There-banner {
+  background-image: url("images/three.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  padding: 5%;
+  margin-right: -2%;
+}
+
+.Link-button-There:hover {
+  background-image: linear-gradient(#fffb00, #b3ff00);
+}
+.Item {
+  margin-left: 20%;
+  margin-right: 5%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 40px gray;
+  margin-top: 10px;
+  color: black;
+}
+.four-banner {
+  background-image: url("images/two.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+.box {
+  padding: 15px;
+}
+.five-banner {
+  background-image: url("images/last.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+section p {
+  color: white;
+  margin: auto;
+  font-weight: 200;
+  text-align: center;
+}
+.raiyan{
+  color: orange;
+}
